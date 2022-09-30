@@ -1,7 +1,7 @@
 # Parkinson's disease diagnosis using wavelet-domain and time-domain features
 In this project, a set of novel features were characterized based on self-similar, correlation, and compressibility properties extracted by multiscale features of gait data in the wavelet domain. The discriminatory power of these features in distinguishing gait patterns between cases and controls was evaluated using three different classifiers, $\it{Logistic Regression, Support Vector Machine, k-Nearest nehghbor}$. In addition, the proposed features were integrated with the time-domain features in order to further improve Parkinson's diagnostic performance. 
 
-### Data Use in the project 
+### Dataset
 You can find the dataset available at https://physionet.org/content/gaitpdb/1.0.0/; the dataset consists of vertical ground reaction force (VGRF) data collected from 93 cases and 73 controls. This project considered only the VGRF data collected from subjects while walking at their normal pace for 2 minutes on a flat surface. 
 
 
