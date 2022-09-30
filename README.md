@@ -12,7 +12,7 @@ This repository contains only the Matlab files used to compute the multiscale fe
 
 2. Run **CaseFeatures.m** and **ControlFefatures.m** using VGRF data of cases and control. These codes compute the follwing feaures 
 
-  **Multi-scale features**\
+   **Multi-scale features**\
     i. Level-wise cross-correlation \
     ii. Wavelet entropy\
     iii. Spectral slope 
