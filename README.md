@@ -21,7 +21,7 @@ Run **Demo_1.m** to see the classification performance of multiscale features
 Run **Demo_2.m** compute the classfication performance by integrating the multi-scale features with three time-domain features
 
 
- Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2
+ Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
