@@ -7,16 +7,16 @@ Download the dataset available at https://physionet.org/content/gaitpdb/1.0.0/; 
 
 The **MatlabFunctions** folder contains the matlab functions used in the project
 
-Run **CaseFeatures.m** and **ControlFefatures.m**  to compute following feaures \
+Run **CaseFeatures.m** and **ControlFefatures.m**  to compute following feaures 
 
   a. Multi-scale features \
     i. Level-wise cross correlation \
     ii. Wavelet entropy\
-    iii. Spectral slope \
+    iii. Spectral slope 
     
    b. Time-domain features \
     i. Stance time and Swing Time\
-    ii. Maximum force reaction at toe and heel\
+    ii. Maximum force reaction at toe and heel
 
 Run **Demo_1.m** to see the classification performance of multiscale features 
 
