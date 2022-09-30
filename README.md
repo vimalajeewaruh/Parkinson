@@ -1,6 +1,6 @@
 # Parkinson's disease diagnosis using wavelet-domain and time-domain features
 
-This repository contains matlab files that were used to generate both the multi-scale features generated in the  wavelet-domain and time-domain features. You can run these codes as follows
+## This repository contains matlab files that were used to generate both the multi-scale features generated in the  wavelet-domain and time-domain features. You can run these codes as follows
 
 Download the dataset available at https://physionet.org/content/gaitpdb/1.0.0/
   The dataset used in this project is vertical ground reaction force (VGRF) data collected from 93 cases and 73 controls 
