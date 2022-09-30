@@ -18,7 +18,7 @@ Run **CaseFeatures.m** and **ControlFefatures.m**  to compute proposed feaures
     i. Stance time and Swing Time\
     ii. Maximum force reaction at toe and heel
 
-Run **Demo_1.m** to see the classification performance of multiscale features 
+Run **Demo_1.m** to see the classification performance of all the multiscale features in diagnosing Parkinson's disease
 
-Run **Demo_2.m** compute the classfication performance by integrating the multi-scale features with three time-domain features
+Run **Demo_2.m** compute the classfication performance by integrating the multi-scale features with three time-domain features in diagnosing Parkinson's disease.
 
