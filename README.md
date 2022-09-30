@@ -1,11 +1,11 @@
 # Parkinson's disease diagnosis using wavelet-domain and time-domain features
+In this project, a set of novel features were characterized on on the basis of self-similar, correlation, and compressibility properties that are extracted by multiscale features of gait data in the wavelet-domain. The discriminatory power of these features in distingushing gait patterns between cases and controls was evaluated by using three different classifiers, $\it{Logistic Regression, Support Vector Machine, k-Nearest nehghbor}$. In addition, the proposed feaures were integrated with the time-domain features in order to  further improve Parkinson's diagnostic performance. 
 
 ## This repository contains matlab files that were used to generate both the multi-scale features generated in the  wavelet-domain and time-domain features. You can run these codes as follows
 
-Download the dataset available at https://physionet.org/content/gaitpdb/1.0.0/
-  The dataset used in this project is vertical ground reaction force (VGRF) data collected from 93 cases and 73 controls 
+Download the dataset available at https://physionet.org/content/gaitpdb/1.0.0/; the dataset consists of vertical ground reaction force (VGRF) data collected from 93 cases and 73 controls. 
 
-The MatlabFunctions folder contains all the supporting functions used in the following  codes 
+The **MatlabFunctions** folder contains the matlab functions used in the project
 
 Run **CaseFeatures.m** and **ControlFefatures.m**  to compute following feaures \
    a. Multi-scale features \
