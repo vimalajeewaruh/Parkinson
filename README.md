@@ -7,8 +7,8 @@ Download the dataset available at https://physionet.org/content/gaitpdb/1.0.0/
 
 The MatlabFunctions folder contains all the supporting functions used in the following  codes 
 
-Run CaseFeatures.m and ControlFefatures.m  to compute following feaures \
-   *a. Multi-scale features \
+Run **CaseFeatures.m** and **ControlFefatures.m**  to compute following feaures \
+   a. Multi-scale features \
     i. Level-wise cross correlation \
     ii. Wavelet entropy\
     iii. Spectral slope \
