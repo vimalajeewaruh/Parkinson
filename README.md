@@ -1,12 +1,12 @@
 # Parkinson's disease diagnosis using wavelet-domain and time-domain features
-In this project, a set of novel features were characterized based on self-similar, correlation, and compressibility properties extracted by multiscale features of gait data in the wavelet domain. The discriminatory power of these features in distinguishing gait patterns between cases and controls was evaluated using three different classifiers, $\it{Logistic Regression, Support Vector Machine, k-Nearest nehghbor}$. In addition, the proposed features were integrated with the time-domain features in order to further improve Parkinson's diagnostic performance. 
+This project aimed to develop new features for analyzing gait data by exploring self-similar, cross correlation, and compressibility properties in the wavelet domain. The effectiveness of these features in distinguishing gait patterns between Parkinson's disease patients and control subjects was evaluated using three classifiers: logistic regression, support vector machine, and k-nearest neighbor. The new features were also combined with time-domain features to enhance the diagnostic performance of Parkinson's disease.
 
 ### Dataset
 You can find the dataset available at https://physionet.org/content/gaitpdb/1.0.0/; the dataset consists of vertical ground reaction force (VGRF) data collected from 93 cases and 73 controls. This project considered only the VGRF data collected from subjects while walking at their normal pace for 2 minutes on a flat surface. 
 
 
 ### Matlab Codes 
-This repository contains only the Matlab files used to compute the multiscale features generated in the wavelet-domain and time-domain features. The **MatlabFunctions** folder includes a set of functions used in the following Matlab files. You can run these codes as follows.
+The repository includes Matlab files that are used to compute multiscale features generated in the wavelet domain and time-domain features. The **MatlabFunctions** folder contains a set of functions used in the Matlab files. To run these codes, follow the instructions provided.
 
 1. Download the dataset by using the URL stated above
 
@@ -19,7 +19,7 @@ This repository contains only the Matlab files used to compute the multiscale fe
     
    **Time-domain features** \
       i. Stance time and Swing Time\
-      ii. Maximum force reaction at toe and heel
+      ii. Maximum force reaction at toe off
 
 3.  Run **Demo** files to test the classification performance of multiscale features and their integration with three time-domain features in diagnosing Parkinson's disease
 
