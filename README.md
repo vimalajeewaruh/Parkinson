@@ -21,7 +21,6 @@ This repository contains only the Matlab files used to compute the multiscale fe
       i. Stance time and Swing Time\
       ii. Maximum force reaction at toe and heel
 
-3. Run **Demo_1.m** to see the classification performance of all the multiscale features in diagnosing Parkinson's disease
+3.  Run **Demo** files to test the classification performance of multiscale features and their integration with three time-domain features in diagnosing Parkinson's disease
 
-4. Run **Demo_2.m** to compute the classification performance by integrating the multiscale features with three time-domain features in diagnosing Parkinson's disease.
 
