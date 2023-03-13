@@ -8,9 +8,8 @@ You can find the dataset available at https://physionet.org/content/gaitpdb/1.0.
 ### Matlab Codes 
 The repository includes Matlab files that are used to compute multiscale features generated in the wavelet domain and time-domain features. The **MatlabFunctions** folder contains a set of functions used in the Matlab files. To run these codes, follow the instructions provided.
 
-1. Download the dataset by using the URL stated above
 
-2. Run **CaseFeatures.m** and **ControlFefatures.m** using VGRF data of cases and control. These codes compute the follwing feaures 
+1.  The study utilized VGRF data files, which are stored in the **Data** folder. The **CaseFeatures** and **ControlFeatures** folders contain multiscale and time-domain features that were generated using the VGRF data.
 
    **Multi-scale features**\
       i. Level-wise cross-correlation \
